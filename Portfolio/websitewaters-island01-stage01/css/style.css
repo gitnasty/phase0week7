@@ -1,7 +1,14 @@
+html {
+	background: url(http://i.imgur.com/HFVnM1r.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
 body {
-	font-family: 'Nunito', sans-serif; 
+	font-family: 'Montez', sans-serif; 
 	color: #FAF3BC;
-	background: #420600 url('img/bg-texture.jpg') repeat;
 }
 
 a {
@@ -77,53 +84,3 @@ float left makes it so that each list item is in line with one another instead
 of blocking one another and pushing each element down to the next line
 
 text-align is only used to align text in the box
-
-What is a “normalize.css” file? What does it do?
-
-What are Bootstrap, Html5 Boilerplate and Zurb examples of? Why would you use them?
-
-What does Gridulator do? How would you use it as a web developer?
-
-What's a good reference to see all the tags available in CSS? Paste a couple of good references below:
-
-Where is a good place to find and use web fonts? How do you integrate a font into your web page?
-www.google.com/fonts is a good repository. Fonts are actually contained in a stylesheet that we can
-copy and paste into our html. Copying it into the html head will not actually set any text to use this font
-but makes it available for use in our own CSS. It's important to place our font css before our css or else
-the browser won't know what to do due to the cascading(procedural) nature of css.
-body {
-	font-family: 'Nunito', sans-serif;
-}
-
-What is a hexadecimal color code? Write out some hexadecimal equivalents to common colors.
-A six-digit, three-byte hexadecimal (0-9,A-F) number used in HTML, CSS, SVG, and other computing 
-applications to represent colors. The bytes represent the red, green and blue components of the color. 
-As such, 256^3 or 16,777,216 colors can be represented.
-
-Using what you know about hex colors, guess what this color may be: #FAF3BC. (Hint: What do higher numbers 
-like FF mean in relation to the color that is associated?)
-FA suggests a bright red, F3 suggests a bright green, BC suggests a relatively bright blue. #FFFFFF is white,
-so #FAF3BC suggests a light hue that borders on the yellow side, since high R and high G
-makes yellow.
-
-Padding and Margins - what are the difference?
-Padding makes the element bigger, margins adds space around the element and pushes it away
-from its surroundings. 
-
-Explain what this syntax is this: .btn:hover.
-This CSS psueod-class is used to add special effects to some selectors. In this case,
-it is used to change the properties of a button when a mouse is hovered over it. Other
-examples include:
-a:link {color:#FF0000;}      /* unvisited link */ /*
-a:visited {color:#00FF00;}  /* visited link */ /*
-a:hover {color:#FF00FF;}  /* mouse over link */ /*
-a:active {color:#0000FF;}  /* selected link */ /*
-
-Explain what happens to an element that has the styling margin: 10px 0 20px 0.
-An element with that styling margin will see a 10 pixel space at the top of the element
-and a 20px space at the bottom of the element, pushing it away in a lateral sense
-from its surroundings.
-
-Compare CSS classes to CSS id’s.
-CSS classes are invoked using .class whereas id's are invoked using #id
-*/
