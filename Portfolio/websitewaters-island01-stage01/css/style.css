@@ -1,5 +1,5 @@
 html {
-	background: url(http://i.imgur.com/HFVnM1r.jpg) no-repeat center center fixed;
+	background: url(http://i.imgur.com/HFVnM1r.jpg) no-repeat left center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -7,8 +7,10 @@ html {
 }
 
 body {
-	font-family: 'Montez', sans-serif; 
-	color: #FAF3BC;
+	font-family: 'Londrina Shadow', sans-serif; 
+	font-size: 1.200em;
+	opacity: 0.75;
+	color: #E9967A;
 }
 
 a {
@@ -18,59 +20,59 @@ a {
 
 h1 {
 	font-size: 1.750em;
-	letter-spacing: -1.5px;
+	letter-spacing: 3.5px;
 
 }
 
 h2 {
 	font-size: 1.500em;
-	color: #B4C34F;
+	color: #4FB69F;
 }
 
-.btn {
-	color: #FAF3BC;
-	background: #4FB69F url('img/texture.png') no-repeat right top;
-	padding: 15px 30px;
-	margin: 40px 0px;
-	border-radius: 25px;
-	text-transform: uppercase;
-}
-
-.btn:hover {
-	background-color: #4CC4A7;
-}
 
 ul.nav{
-	margin: 120px 0 0 0;
+	margin: 0px 0 0 0;
 	list-style: none;
-	float: right;
 }
 
 ul.nav li {
 	float: left;
-	margin-right: 40px;
+	text-align: right;
+	margin-right: 20px;
+	letter-spacing: 1px;
 }
 
 ul.nav li a{
 	color: #FAF3BC;
+}
 
+#soundcloud {
+	margin-top: 5px;
+}
+
+#intro img {
+	opacity: 0.10;
 }
 
 #intro {
-	margin: 50px 0 75px 0;
+	margin: 70px 0 75px 0;
+	font-size: 2.250em;
 }
 
 #new-cupcakes img {
-	border: 8px solid #FAF3BC;
+	border: 8px solid #E9967A;
 	margin: 0 0 20px 0;
 }
 
+#featured-cupcake {
+	font-size: 1.250em;
+	letter-spacing: 1.25px;
+}
 #featured-cupcake img {
-	border: 8px solid #FAF3BC;
+	border: 8px solid #E9967A;
 }
 
 #copyright {
-	border-top: 8px solid #2A0400;
 	padding: 10px 0px;
 	margin: 15px 0px;
 	text-align: center;

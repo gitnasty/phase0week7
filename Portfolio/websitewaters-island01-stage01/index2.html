@@ -2,45 +2,46 @@
 <html>
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-  <title>Smells Like Bakin' Cupcake Company</title>
+  <title>Aventura Boliviano, Yo!</title>
   <link rel="stylesheet" href="css/normalize.css" type="text/css" media="screen">
   <link rel="stylesheet" href="css/grid.css" type="text/css" media="screen">
-  <link href='http://fonts.googleapis.com/css?family=Montez' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Londrina+Shadow' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+  <script type="text/javascript" src="scripts/soundcloud.player.api.js"></script>
+  <script type="text/javascript">
+   soundcloud.addEventListener('onPlayerReady', function(player, data) {
+     player.api_play();
+   });
+</script>
 </head>
 
 <body>
   <div class="container clearfix">
-    <div class="grid_4">
-      <img src="img/cropped_speeper.png" alt="Spring Peeper Mascot">
-    </div>
-    <div class="grid_8 omega">
+    <div class="grid_6">
       <ul class="nav">
         <li><a href="#">About</a></li>
-        <li><a href="#">Cupcakes &amp; Prices</a></li>
-        <li><a href="#">Locations</a></li>
-        <li class="last"><a href="#">Contact Us</a></li>
+        <li><a href="#">Map &amp; Itinerary</a></li>
+        <li><a href="#">Pick Your Poison</a></li>
+        <li class="last"><a href="#">Our Collective</a></li>
       </ul>
     </div> 
-    <div id="intro" class="grid_9">
-      <h1>Opposites really do attract, especially in our kitchen! We combine unexpected flavors that melt together to create ironically delicious desserts. </h1>
-      <p><a href="#" class="btn">Browse Our Cupcakes</a></p>
+    <div id="intro" class="grid_6 omega">
+      <h1>Onward to Wayward</h1>
+      <INPUT TYPE="image" SRC="img/Croppedolan.png" ALT="SUBMIT">
     </div>
-    <div class="grid_3 omega">
-      <img src="http://treehouse-code-samples.s3.amazonaws.com/WWIsland1/stage2/img/you-bake-me-blush.gif" alt="You Bake Me Blush">
     </div>
 
-      <div id="featured-cupcake" class="grid_7">
+      <div id="featured-cupcake" class="grid_12">
         <h2>Cupcake of the Week</h2>
-        <p>This week’s featured cupcake is the <a href="#">Avocado Chocolate cupcake</a>. It’s strange combo of flavors will kick your taste buds into fiesta mode!</p>
-        <img src="http://treehouse-code-samples.s3.amazonaws.com/WWIsland1/stage2/img/featured-cupcake.jpg" alt="Avocado Chocolate Cupcake">
+        <p>This week’s featured cupcake is <a href="#">Nicole</a>. Her loveliness will kick your taste buds into fiesta mode!</p>
+        <img src="img/nicolesalar.jpg" alt="Teet Shot">
       </div>
       
-      <div id="new-cupcakes" class="grid_5 omega">
+      <div id="new-cupcakes" class="grid_6">
           <h2>Fresh Out the Oven</h2>
-          <p>Our newest cupcakes are <a href="#">Bacon Me Crazy</a> and <a href="#">Jalapeño So Spicy</a>. </p>
-        <img src="http://treehouse-code-samples.s3.amazonaws.com/WWIsland1/stage2/img/new-cupcake-bacon.jpg" alt="Bacon Me Crazy">
-        <img src="http://treehouse-code-samples.s3.amazonaws.com/WWIsland1/stage2/img/new-cupcake-jalapeno.jpg" alt="Jalapeno So Spicy">
+          <p>Our newest pictures are from <a href="#">La Paz</a> and <a href="#">the Bolivian Amazon</a>. </p>
+        <img src="img/lapaz.jpg" alt="La Paz">
+        <img src="img/treebolivia.jpg" alt="Bolivian Rainforest">
       </div>
       
       <div class="grid_7">
@@ -63,8 +64,15 @@
 
 
       <div id="copyright" class="grid_12">
-        <p>&copy; 2012 Smells Like Bakin' Cupcake Company. All Rights Reserved.</p>
+        <p>&copy; Convivial Cavaliers. All Rights Reserved.</p>
       </div>
+      <div id="soundcloud" class="grid_12">
+        <object height="81" width="100%" id="yourPlayerId" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000">
+          <param name="movie" value="http://player.soundcloud.com/player.swf?url=http%3A%2F%2Fsoundcloud.com%2Fmatas%2Fhobnotropic&enable_api=true&object_id=yourPlayerId"></param>
+          <param name="allowscriptaccess" value="always"></param>
+          <embed allowscriptaccess="always" height="81" src="http://player.soundcloud.com/player.swf?url=http%3A%2F%2Fsoundcloud.com%2Fartisbeats%2Fdownhill%2Djam%2Dep&enable_api=true&auto_play=false&start_track=1&object_id=yourPlayerId" type="application/x-shockwave-flash" width="100%" align="center" name="yourPlayerId"></embed>
+        </object>
+    </div>
   </div>
 </body>
 </html>
